@@ -2,6 +2,7 @@ apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
   name: aws-ebs
+  namespace: efklog
 provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2  # Adjust according to your EBS volume type
