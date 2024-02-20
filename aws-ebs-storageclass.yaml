@@ -5,5 +5,5 @@ metadata:
 provisioner: kubernetes.io/aws-ebs
 parameters:
   type: gp2  # Adjust according to your EBS volume type
-  zone: <your-aws-region>  # Specify the AWS region
+  zone: ap-south-1  # Specify the AWS region
 reclaimPolicy: Retain
