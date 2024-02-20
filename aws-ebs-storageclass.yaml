@@ -1,0 +1,9 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: aws-ebs
+provisioner: kubernetes.io/aws-ebs
+parameters:
+  type: gp2  # Adjust according to your EBS volume type
+  zone: <your-aws-region>  # Specify the AWS region
+reclaimPolicy: Retain
