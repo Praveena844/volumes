@@ -9,4 +9,4 @@ spec:
   resources:
     requests:
       storage: 10Gi  # Adjust the size according to your requirements
-  storageClassName: YOUR_STORAGE_CLASS_NAME  # Replace with your EBS storage class name or remove this line if using default storage class
+  storageClassName: aws-ebs  # Replace with your EBS storage class name or remove this line if using default storage class
